@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+body
+{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(-45deg, #ffce51, #ff7253, #fd5754);
+}
+
+h2
+{
+    text-align: center;
+}
+
+#form
+{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    border-radius: 10px;
+    padding: 60px;
+    align-items: center;
+    width: min-content;
+    color: #2b344b;
+
+}
+
+.title
+{
+    font-size: 1.0cm;
+    margin-bottom: 10%;
+}
+
+.input
+{
+    min-width: 250px;
+    border-radius: 20px ;
+    border: 2px #3f7e8a solid;
+    padding: 5px;
+
+}
+
+.input i
+{
+    font-size: 20px;
+    padding: 5px;
+    background: -webkit-linear-gradient(-45deg, #ffce51, #ff7253, #fd5754);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.input input
+{
+    width: 80%;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    transform: translateY(-10%);
+    color: #2b344b;
+    font-size: 11pt;
+}
+
+#btn-login
+{
+    margin-top: 10%;
+    width: 100%;
+    text-align: center;
+}
+#btn-login button
+{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(-45deg, #ffce51, #ff7253, #fd5754);
+    width: 100%;
+    height: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;    
+}
+
+#btn-login button:hover
+{
+    background: linear-gradient(-45deg, #ffce51, #ff7253, #fd5754);
+}
+
